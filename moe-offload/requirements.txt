@@ -1,0 +1,9 @@
+# torch is preinstalled on Kaggle; install it yourself only if you run the GPU steps locally
+transformers>=5.0,<6   # src/offload.py needs the 5.x expert layout
+accelerate
+datasets
+numpy
+pandas
+matplotlib
+nvidia-ml-py
+pytest
